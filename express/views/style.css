@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=PT+Serif:wght@700&family=Poppins:wght@200&family=REM:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Kanit:wght@500&family=PT+Serif:wght@700&family=Poppins:wght@200&family=REM:wght@100&family=Roboto+Slab:wght@500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+#navbar{
+    background-color: rgb(6, 133, 126);
+    padding-top: 0%;
+    padding: 30px;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: 10px 5px 10px black;
+    
+    
+    
+ 
+}
+#navbar li{
+    list-style: none;
+  
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 60px;
+    font-size: 25px;
+    color: white;
+  
+    
+    
+
+}
+#navbar li a:hover{
+    color: black;
+}
+
+
+
+
+#section1 {
+   
+    height: 700px;
+    opacity: 0.9;
+    background: center/ cover no-repeat url("/static/poor1.avif");
+    z-index: -1;
+    filter: drop-shadow(15px 15px 25px #555);
+    width: 100%;
+    box-shadow: 10px 10px 20px black;
+    box-shadow: inset 400px 10px 100000000000px  black;
+    
+
+    
+ }
+ #section1 h1{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    padding: 13%;
+    margin-right: 60%;
+     color: white;
+    font-size: 90px;
+    font-family: cursive
+ }
+#section2{
+    /* height: 1000px; */
+    height: 450px;
+     background-color: #fff;;
+     
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 70%;
+    margin-left: 16%;
+    margin-right: 22% ;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+ 
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+.br{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-weight: 1000;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+
+
+
+
+
+#section3{
+    /* height: 1000px; */
+    height: 520px;
+    background-color: #f3f2f3;;
+   
+}
+.br2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding: 20px; 
+    font-weight: 1000;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+ .card{
+    
+    display: inline-block;
+    
+    border-radius: 10px;
+    height: 400px;
+    width: 15%;
+     
+  
+  /* margin: 23px 22px; */
+   margin-left: 8%;
+
+    
+}
+.card h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 90px;
+    color: rgb(6, 133, 126);
+    
+
+} 
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color:  rgb(9, 109, 104);
+    font-family: cursive;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+
+
+#section4{
+    /* height: 1000px; */
+    height: 730px;
+  width: 70%;
+    background-color: white;
+    margin-left: 15%;
+}
+ #section4 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: cursive;
+    padding: 20px;
+}
+.card2{ 
+    display: inline-block;
+    
+    padding: 30px;
+    width:40%;
+    margin-left: 125px;
+  
+    height: 250px;
+}
+#card2 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:orange;
+   
+    
+    font-weight: 500;
+    font-family: cursive;
+}
+#card3 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: purple;
+    font-weight: 500;
+    font-family: cursive;
+}
+#card4 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: red;;
+    font-weight: 500;
+    font-family: cursive;
+}
+#card5 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(18, 18, 155);;
+    font-weight: 500;
+    font-family: cursive;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#section5{
+    height: 600px;
+  width: 70%;
+
+    background-color: white;
+    margin-left: 15%;
+
+    
+}
+#section5 h1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: cursive;
+    padding: 20px;
+}
+.cause{
+    display: inline-block;
+   
+    padding: 110px;
+    margin-left: 54px;
+    margin-top: 180px;
+  
+    height: 400px;
+
+}
+#cause2 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:orange;
+   
+    
+    font-weight: 500;
+    font-family: cursive;
+   
+
+}
+#cause2{
+    background: center/ cover no-repeat url("/static/photo.jpg");
+    
+}
+#cause3 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: purple;
+    font-weight: 500;
+    font-family: cursive;
+    
+}
+#cause3{
+    background: center/ cover no-repeat url("/static/photo1.jpg");
+ 
+}
+
+#cause4 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: red;;
+    font-weight: 500;
+    font-family: cursive;
+}
+#cause4{
+    background: center/ cover no-repeat url("/static/photo2.jpg");
+}
+#cause5 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(18, 18, 155);;
+    font-weight: 500;
+    font-family: cursive;
+
+}
+#cause5{
+    background: center/ cover no-repeat url("/static/photo4.jpg");
+}
+#section6{
+    /* height: 1000px; */
+    height: 650px;
+    background-color: #13857d;;
+}
+ .section6{
+
+    padding: 110px;
+    margin-left: 20px;
+
+    text-align: center;
+    display: inline-block;
+    background-color:  #e6dde6;;
+   
+    
+    
+}
+#section7{ 
+    height: 400px;
+     background-color: white;
+ 
+    
+}
+ #section7 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+color: black;
+padding:40px;
+ font-size: 40px;
+ font-weight: 1000;
+ }
+ .spimage{
+    height: 80%;
+    margin: 20px;
+    padding: 25px;
+  }
+  #sponsors{
+    height: 210px;
+    max-width: 1000px;
+    margin: 27px auto;
+  }
+  
+
+
+  .section8{
+    display: flex;
+    padding: 200px;
+    margin-top: 20px;
+
+    height: 400;
+    margin-left: 9%;
+    width: 80%;
+ }
+#footer{
+    height: 400px;
+    background-color: grey;
+
+}
+#footer h4{
+   
+    display: inline-block;
+    padding: 50px;
+  
+    margin-left: 90px;
+    color: black;
+    
+
+    
+}
+#footer h4:hover{
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin-left: 285px;
+    padding: 30px;
+    font-size: 15px;
+}
+#footer2{
+    background-color: black;
+   
+    border: 2px solid black;
+    height: 70px;
+}
+#footer2 h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 12px;
+}

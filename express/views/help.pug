@@ -1,0 +1,44 @@
+
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+
+
+block style
+     style 
+        include style4.css 
+
+block content 
+  nav#navbar2
+         ul
+             li #[a(href="/") HOME] 
+             li #[a(href="/") ABOUT ]
+             li #[a(href="/") DONATE ]
+             li #[a(href="/") CONTACT US] 
+             li #[a(href="/") HELP ]
+
+
+
+  section#section1
+    img(src="/static/poor6.jpg", alt="")
+
+
+  section#section2
+    .div CONTACT US ON- 7807857785<br>EMAIL - raokasif623@gmail.com
+    img(src="/static/poor6.webp", alt="")
+
+
+  
+  footer#footer
+      h4 ABOUT US
+      h4 OUR WORK
+      h4 CAMPAGINS
+      h4 GET INVOLVED
+      h4 RESOURCE CENTRE
+      div.container
+        |Established in 2023, RK Foundation is an Indian development organization, impacting the lives of over indian children and their families every year. We have more than 400 projects on education, healthcare, livelihood, and women empowerment in over 2,000 remote villages and urban slums across 25 states of india <br> Rk Foundation works as a catalyst in the cycle of change, complementing and supplementing government efforts (view details) to achieve the Sustainable Development Goals. We sensitize and partner with like-minded institutions and individuals to implement high-impact programmes that enable access, enhance quality and help bring long term behavioural change at the grassroots.
+  footer#footer2
+       h4 Copyright 2023 RKFOUNDATION.com | All Right Reserved 
+ 

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=PT+Serif:wght@700&family=Poppins:wght@200&family=REM:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Kanit:wght@500&family=PT+Serif:wght@700&family=Poppins:wght@200&family=REM:wght@100&family=Roboto+Slab:wght@500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+#navbar2{
+    background-color:#dc3545;
+    padding-top: 0%;
+    padding: 30px;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: 10px 5px 10px black;
+    
+    
+    
+ 
+}
+#navbar2 li{
+    list-style: none;
+  
+}
+#navbar2 li a{
+    text-decoration: none;
+    padding: 60px;
+    font-size: 25px;
+    color: white;
+  
+    
+    
+
+}
+#navbar2 li a:hover{
+    color: rgb(2, 2, 31);
+}
+
+#section1 {
+   
+    height: 600px;
+    opacity: 0.9;
+ 
+    background-color:#dc3545;
+    
+
+    filter: drop-shadow(15px 15px 25px #555);
+    width: 100%;
+ 
+
+    
+
+    
+ }
+ #section1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 50px;
+    color: yellow;
+ }
+ .div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 70%;
+    margin-left: 16%;
+    margin-right: 22% ;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    
+ 
+    font-family: 'Cormorant Garamond', serif;
+
+ }
+
+ #section2{
+    height: 700px;
+ }
+ #section2 img{
+    position: absolute;
+    margin-left: 33%;
+    padding: 80px;
+ }
+ #section2 h1{
+    position: absolute;
+    font-size: 100px;
+    padding: 270px;
+
+ }
+
+ #footer{
+    height: 400px;
+    background-color: grey;
+
+}
+#footer h4{
+   
+    display: inline-block;
+    padding: 50px;
+  
+    margin-left: 90px;
+    color: black;
+    
+
+    
+}
+#footer h4:hover{
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin-left: 285px;
+    padding: 30px;
+    font-size: 15px;
+}
+#footer2{
+    background-color: black;
+   
+    border: 2px solid black;
+    height: 70px;
+}
+#footer2 h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 12px;
+}
